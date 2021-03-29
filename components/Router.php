@@ -34,7 +34,7 @@ class Router
                 $internalRoute = preg_replace("~$uriPattern~", $path, $uri);
                 
                
-
+                //split a string by string 
                 $segments = explode('/', $internalRoute);
                 //shift first letter
                 $controllerName = array_shift($segments).'Controller';
